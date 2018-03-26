@@ -61,6 +61,9 @@ h1 {
 <li>Do as much research as you possible can so that you know everything you can possibly know about the topic, or else you will be lost when the more complex code comes along</li>
 <li>Don't only look for the HOW in your project, but for the WHY as well.</li>
 
+<h3>Resources</h3>
+<li><a href="https://sass-lang.com/guide">https://sass-lang.com/guide</a></li>
+<li><a href="https://tutorialzine.com/2016/01/learn-sass-in-15-minutes">https://tutorialzine.com/2016/01/learn-sass-in-15-minutes</a></li>
 
 [Next](entry2.md)
 <br>
