@@ -63,4 +63,4 @@ h1 {
 <br>
 [Next](entry2.md)
 <br>
-[Table of Contents](../README.md)
+[Table of Contents](../entries../README.md)
