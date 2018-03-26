@@ -65,6 +65,7 @@ h1 {
 <li><a href="https://sass-lang.com/guide">https://sass-lang.com/guide</a></li>
 <li><a href="https://tutorialzine.com/2016/01/learn-sass-in-15-minutes">https://tutorialzine.com/2016/01/learn-sass-in-15-minutes</a></li>
 
+<br>
 [Next](entry2.md)
 <br>
 [Table of Contents](../README.md)
