@@ -60,6 +60,3 @@ h1 {
 <li>Do as much research as you possible can so that you know everything you can possibly know about the topic, or else you will be lost when the more complex code comes along</li>
 <li>Don't only look for the HOW in your project, but for the WHY as well.</li>
 
-<br>
-[Next](entry2.md)
-<br>
