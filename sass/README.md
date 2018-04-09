@@ -1,9 +1,9 @@
-<center><h1>Sass~Independent Study</h1></center>
-<h2>Table of Contents</h2>
+# Sass~Independent Study
+## Table of Contents 
 
-<li>Entry 1: Introduction
-<li>Entry 2: CodeAcademy
-<li>Entry 3:
-<li>Entry 4:
-<li>Entry 5:
-<li>Entry 6:
++ [Entry 1: Introduction](entries/entry1.md)
++ [Entry 2: CodeAcademy](entries/entry2.md)
++ Entry 3:
++ Entry 4:
++ Entry 5:
++ Entry 6:
