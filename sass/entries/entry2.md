@@ -5,7 +5,7 @@
 
 <h3>@import</h3>
 <p>Sass extends the CSS @import rule so it can import SCSS/Sass files. Normally we use this rule to import our Sass into one master file. We include this master file as our main CSS file in a project to use all of the consolidated rules. Importing a file gives access to any mixins or variables included in the files.</p>
-<p>```@import``` looks for a Sass file to import but will compile to a CSS @import rule under the following conditions:</p>
+<p><code>@import</code> looks for a Sass file to import but will compile to a CSS @import rule under the following conditions:</p>
 <li>The file extension is .css
 <li>The filename begins with htp://
 <li>The filename is a url()
