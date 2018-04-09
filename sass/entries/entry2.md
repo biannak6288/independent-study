@@ -139,4 +139,12 @@ $test: 1px; <br>
 </code>
 <p>This rule will display the error, line number, and value in the standard error stream.</p>
 
+<p>Although coding without <strong>Sass</strong> is very possible, implementing it into our code will make our process much more efficient.</p>
+
+<h2>Takeaways</h2>
+<li>Keep training with these rules because they will assist with learning Sass faster
+<li>Search more ways to efficiently learn the language
+<li>Keep practicing all aspects I learned in Sass so I don't forget them
+<li>Remain motivated to learn new things!!
+
 
