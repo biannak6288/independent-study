@@ -1,11 +1,11 @@
-<center><h1>Entry 2: CodeAcademy</h1></center>
-<p>In order to increase my knowledge of SASS, I took courses on <strong>Codecademy</strong>. The practices and important lessons provided by this website helped me in the process of learning Sass, as well as helped me become more comfortable with the language.While taking Codecademy lessons, I learned a few basic rules.</p>
+<center><h1>Entry 2: Rules of Sass</h1></center>
+<p>In order to increase my knowledge of SASS, I took courses on <strong>CodeAcademy</strong>. The practices and important lessons provided by this website helped me in the process of learning Sass, as well as helped me become more comfortable with the language.While taking Codecademy lessons, I learned a few basic rules.</p>
 <h2>The @-Rules</h2>
 <p>The @-Rules in Sass are backbone features that everyone who is interested in learning about Sass needs to know. Some of these @-rules are also extensions of CSS @-rules while others are Sass specific directives.</p>
 
 <h3>@import</h3>
 <p>Sass extends the CSS @import rule so it can import SCSS/Sass files. Normally we use this rule to import our Sass into one master file. We include this master file as our main CSS file in a project to use all of the consolidated rules. Importing a file gives access to any mixins or variables included in the files.</p>
-<p><code>@import</code> looks for a Sass file to import but will compile to a CSS @import rule under the following conditions:</p>
+<p>`@import` looks for a Sass file to import but will compile to a CSS @import rule under the following conditions:</p>
 <li>The file extension is .css
 <li>The filename begins with htp://
 <li>The filename is a url()
