@@ -1,4 +1,4 @@
-# Entry 2: Mixins, Conditionals, and Loops
+# Entry 3: Mixins, Conditionals, and Loops
 For my third week of Independent Study, I continued exploring guidelines to learning SASS. Last week, I conquered understanding the rules SASS engneders, however, this week I will focus predominantly on three categories: <b>mixins</b>, <b>conditionals</b>, and <b>loops</b>. I am excited to continue my journey in SASS because it has been an interesting one, which continuously allows me to explore new aspects to further my knowledge of coding in general.
 Anyway, enough with this weeks introduction, lets get into what I had learned this week!
 
