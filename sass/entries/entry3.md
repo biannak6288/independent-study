@@ -245,6 +245,8 @@ Sadly we have come to the end of our tutorial. Now it is time to reflect on what
 * If you see a group of ccc properties clumped together, then you have the ability to put it into a mixin
 * Remember to keep your code organized so that it makes sense to you and others who are learning from it
 
+Enjoy learning from my tutorial. Hope you can't wait for next weeks learning!
+
 
 
 
