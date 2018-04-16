@@ -15,7 +15,7 @@ Mixins are extremely powerful. That being said, lets get into the details.
 In this case, you will use the rule of thumb, which is that if you happen to spot a group of CSS properties that always 
 appear together for a reason, you can put them in a mixin instead. This is an example of a group of CSS properties which
 appear together and form an argumentless mixin:
-```
+```CSS
 @mixin clearfix {
   &::after {
     content: '';
@@ -26,7 +26,7 @@ appear together and form an argumentless mixin:
 ```
 Another valid example would be a mixin to size an element, defining both ```width``` and ```height``` 
 at the same time. Not only would it make the code much easier and faster to type, but also more legible.
-```
+```CSS
 @mixin size($width, $height: $width) {
   width: $width;
   height: $height;
@@ -40,7 +40,7 @@ we don’t necessarily have to pass arguments.
 In such cases, we can safely omit the parentheses when calling them. The ```@include``` 
 keyword already acts as a indicator that the line is a mixin call, therefore there is 
 no need for extra parentheses here.
-```
+```CSS
 // Hello
 .foo {
   @include center;
@@ -56,7 +56,7 @@ When dealing with an unknown number of arguments in a mixin, always use an <b>ar
 rather than a regular list. Think of an arglist as the 8th hidden undocumented data type from Sass 
 that is implicitly used when passing an arbitrary number of arguments to a mixin or a 
 function whose signature contains ....
-```
+```CSS
 @mixin shadows($shadows...) {
 }
 ```
@@ -78,7 +78,7 @@ code.
 However, if you caanot use Autoprefixer, and only when you can't, thats when you can have 
 your own mixin for prefixing CSS properties. Do not build a mixin per property, meaning manually 
 printing each vendor.
-```
+```CSS
 // Goodbye
 @mixin transform($value) {
   -webkit-transform: $value;
@@ -87,7 +87,7 @@ printing each vendor.
 }
 ```
 Do it the easier way...
-```
+```CSS
 @mixin prefix($property, $value, $prefixes: ()) {
   @each $prefix in $prefixes {
     -#{$prefix}-#{$property}: $value;
@@ -97,7 +97,7 @@ Do it the easier way...
 }
 ```
 Using this mixin should be pretty straightforward...
-```
+```CSS
 .foo {
   @include prefix(transform, rotate(90deg), ('webkit', 'ms'));
 }
@@ -117,7 +117,7 @@ guidelines:
 * Always a line break after the opening brace (```{```)
 * ```@else``` statements on the same line as previous closing brace (```}```)
 * Always an empty new line after the last closing brace (```}```) unless the next line is a closing brace (```}```)
-```
+```CSS
 // Hello
 @if $support-legacy {
   // …
@@ -135,7 +135,7 @@ guidelines:
 ```
 When testing for a false value, always use the <b>not</b> keyword rather than testing against 
 <b>false</b> or <b>null</b>:
-```
+```CSS
 // Hello
 @if not index($list, $item) {
   // …
@@ -149,13 +149,13 @@ When testing for a false value, always use the <b>not</b> keyword rather than te
 <b>Always put the variable part on the left side of the statement, and the (un)expected 
 result on the right. Reversed conditional statements often are more difficult to read, 
 especially to unexperienced developers.</b>
-```
-// Yep
+```CSS
+// Hello
 @if $value == 42 {
   // …
 }
 
-// Nope
+// Goodbye
 @if 42 == $value {
   // …
 }
@@ -163,7 +163,7 @@ especially to unexperienced developers.</b>
 Moving along, when using conditional statements within a function to return a different
 result based on some condition, always make sure the function still has a ```@return``` 
 statement outside of any conditional block. For example,
-```
+```CSS
 // Hello
 @function dummy($condition) {
   @if $condition {
@@ -189,7 +189,7 @@ actually solves an issue!
 #### Each
 The ```@each``` loop is definitely the most-used out of the three loops provided by 
 Sass. It provides a clean API to iterate over a list or a map.
-```
+```CSS
 @each $theme in $themes {
   .section-#{$theme} {
     background-color: map-get($colors, $theme);
@@ -197,7 +197,7 @@ Sass. It provides a clean API to iterate over a list or a map.
 }
 ```
 When iterating on a map, always use ```$key``` and ```$value``` as variable names to enforce consistency.
-```
+```CSS
 @each $key, $value in $map {
   .section-#{$key} {
     background-color: $value;
@@ -213,7 +213,7 @@ is a closing brace (```}```).
 The ```@for``` loop might be useful when combined with CSS’ <b>:nth-*</b> pseudo-classes. Except 
 for these scenarios, prefer an ```@each``` loop if you have to iterate over something.
 An example of a ```@for``` loop is:
-```
+```CSS
 @for $i from 1 through 10 {
   .foo:nth-of-type(#{$i}) {
     border-color: hsl($i * 36, 50%, 50%);
