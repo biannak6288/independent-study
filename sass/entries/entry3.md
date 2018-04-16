@@ -117,7 +117,7 @@ guidelines:
 * Always a line break after the opening brace (```{```)
 * ```@else``` statements on the same line as previous closing brace (```}```)
 * Always an empty new line after the last closing brace (```}```) unless the next line is a closing brace (```}```)
-```CSS
+``` CSS
 // Hello
 @if $support-legacy {
   // …
