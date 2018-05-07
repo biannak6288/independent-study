@@ -1,0 +1,15 @@
+// .home {
+//   @include cover;
+//   background: rgba(black, 0.5);
+//   z-index: 1000;
+// }
+
+@mixin font-size-xxxx-large {
+  font-size: 96px;
+}
+$color-text: darken(#f2ece4, 15);
+
+h1{
+  @include font-size-xxxx-large	;
+  color:$color-text;
+}
