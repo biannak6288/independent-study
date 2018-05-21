@@ -1,4 +1,4 @@
-# Entry 8: The Project is Finished
+# Entry 8: The Project is ALMOST Finished
 
 Hello Friends! We are back with another journal entry about my wonderful topic: SASS. I was once again away for a little while during this week, 
 therefore I wasn't able to work on the project verry much. However, I took part in certain changes and they are very much effective in terms of
