@@ -9,4 +9,4 @@
 + [Entry 6: The Final Project Begins](entries/entry6.md)
 + [Entry 7: The Final Project Continues](entries/entry7.md)
 + [Entry 8: The Project is ALMOST Finished](entries/entry8.md)
-+ [Entry 9:](entries/entry9.md)
++ [Entry 9: The Finally of Senior Year](entries/entry9.md)
