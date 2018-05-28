@@ -1,7 +1,7 @@
 # Entry 9: The Finally of Senior Year
 
 <center><img src= "https://img.etsystatic.com/il/bfc6ca/799071038/il_570xN.799071038_cmg3.jpg?version=0" /></center>
-<center>*Photo Credits: Etsy*</center>
+<center>Photo Credits: Etsy</center>
 
 ## I CAN'T BELIEVE IT'S OVER
 
